@@ -1,0 +1,476 @@
+/* STYLE SECTIONS */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body, html {
+  height: 100%;
+}
+
+#homeBody {
+  background-color: black;
+
+}
+
+#takeActionBody {
+  background-color: black;
+}
+
+
+#donateBody {
+  background-color: black;
+  margin-bottom: 2em;
+}
+
+#letterBody {
+  margin-bottom: 10em;
+  background-color: black;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  padding-top: 380px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 90px;
+  color: white;
+}
+
+h2 {
+  padding: 1 1.2em;
+  font-size: 50px;
+}
+
+h3 {
+  padding: 1em;
+  text-align: center;
+  font-size: 40px;
+}
+
+h4 {
+  padding: 1em 2em;
+  font-size: 30px;
+}
+
+h6 {
+  padding: 1em;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+}
+
+.references {
+  text-align: center;
+  margin-top: 2em;
+  line-height: 2;
+}
+
+
+
+/* Home */
+
+.mission {
+  text-align: center;
+}
+
+.mission p {
+  padding-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.mission br {
+  margin: 15px;
+  display: block;
+  content:"";
+}
+
+.ourPurpose h3 {
+  padding-top: 0;
+  padding-bottom: 1em;
+  margin: 0;
+  color: white;
+}
+
+.ourPurpose {
+  background-color: #4c6fb1;
+  padding: 50px 60px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+#purpose {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 2;
+}
+
+#purposeFacts {
+  text-align: center;
+}
+
+#purposeLink {
+  color:#699bf8;
+}
+
+#quote {
+  background-image: linear-gradient(to bottom, black, black, grey);
+  color: white;
+}
+
+/* About */
+
+.aboutHeading {
+  padding-top: 5em;
+  padding-bottom: 2em;
+  background-image: linear-gradient(to right, #344c79, rgba(100, 148, 237, 0.795));
+  color: white;
+ 
+}
+
+.aboutMain {
+  padding-bottom: 2em;
+  background-color: black;
+}
+
+.aboutMain h4 {
+  color: #699bf8;
+}
+
+.aboutMain p {
+  padding: 0 3em;
+  line-height: 2;
+  color: white;
+}
+
+.aboutMain a {
+  color: #699bf8;
+}
+
+
+.forWho p {
+  margin-right: 3em;
+  display: flex;
+  line-height: 2;
+}
+
+.why p {
+  display: flex;
+  line-height: 2;
+}
+
+
+/* Take Action */
+
+.actionHeading {
+  padding-top: 5em;
+  padding-bottom: 2em;
+  background-image: linear-gradient(to right, #678867, rgb(180, 240, 180));
+  color: white;
+}
+
+.how {
+  color: rgb(163, 214, 163);
+}
+
+.takeAction {
+  padding: 0 3.8em;
+}
+
+.action {
+  float: left;
+  width: 50%;
+  line-height: 2;
+  text-align: center;
+}
+
+#donateDesc {
+  padding: 0 2em;
+}
+
+#writeDesc {
+  padding: 0 2em;
+}
+
+
+
+/* Donate */
+.donateHeading {
+  padding-top: 1.6em;
+  padding-bottom: 0.7em;
+  background-image: linear-gradient(to right, #678867, rgb(180, 240, 180));
+  color: white;
+}
+
+.donate h4 a {
+  color: rgba(188, 250, 188, 0.63);
+}
+
+.donate p{
+  padding: 0 3em;
+  color: white;
+}
+
+.march {
+  display: flex;
+}
+
+.march p {
+  line-height: 2;
+  color: white;
+}
+
+.everytown p{
+  display: flex;
+  line-height: 2;
+  color: white;
+}
+
+.actionReference {
+  color: rgba(188, 250, 188, 0.63);
+  padding-bottom: 2em;
+}
+
+
+/* Write a Letter */
+
+.letterHeading {
+  padding-top: 1.6em;
+  padding-bottom: 0.7em;
+  text-align: center;
+  background-image: linear-gradient(to right, #678867, rgb(180, 240, 180));
+  color: white;
+}
+
+.letter main {
+  margin-bottom: 30%;
+}
+
+.letterQues {
+  margin-top: 1%;
+  margin-left: 25%;
+  margin-right: 25%;
+  background: #678867;
+  border-radius: 5%;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.letterItem {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+input {
+  margin-top: 5px;
+  padding: 0.5em;
+  border-style: none;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: bold;
+
+}
+
+#letterReturned {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-bottom: 5%;
+  line-height: 2;
+}
+
+/*STYLE IMAGES */
+
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("assets/hands-raised.png");
+  height: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.homeSlideContainer {
+  margin: 0 12.5%;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.homeSlides {
+  display: none;
+}
+
+.homeLeft, .homeRight {
+  cursor: pointer;
+  
+}
+
+.forWho img {
+  margin-left: 4em;
+  width: 40%;
+  border: 5px solid white;
+}
+
+.why img {
+  margin-left: 30px;
+  margin-right: 2em;
+  display: flex;
+  width: 40%;
+  border: 5px solid white;
+}
+
+.reason {
+  margin-left: 7%;
+  margin-right: 5%;
+}
+
+.reason img {
+  margin-top: 1em;
+  border: 5px solid white;
+}
+
+.march img {
+  width: 40%;
+  margin-right: 3.5em;
+  border: 5px solid white;
+}
+
+.everytown img {
+  display: flex;
+  width: 40%;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  border: 5px solid white;
+}
+
+/*STYLE NAV BAR */
+
+ul {
+  padding: 1em 0;
+  overflow: hidden;
+  list-style-type: none;
+  text-align: center;
+  background-color: black;
+}
+
+li {
+  display: inline;
+
+}
+
+
+li a {
+  padding: 1em;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+li a:hover {
+  background-color: grey;
+}
+
+/* STYLE BUTTONS */
+
+button {
+  padding: 15px 10px;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: 15%;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color:#5a85d4;
+}
+
+
+.button2 {
+  margin-left: 100px;
+  background-color:#7ba17b;
+}
+
+
+.button1 , .button2 {
+  display: inblock;
+  margin-bottom: 200px; 
+  text-align: center;
+}
+
+
+button a {
+  text-decoration: none;
+}
+
+.button1 a, .button2 a {
+  color: white;
+}
+
+.button1:hover {
+  background-color: deepskyblue;
+}
+
+.button2:hover {
+  background-color:  mediumseagreen;
+}
+
+.homeLeft , .homeRight {
+  background-color: black;
+  color: white;
+}
+
+#donationBtn {
+  margin-top: 30px;
+  background-color: #7ba17b;
+}
+
+#donationBtn a {
+  color: white;
+}
+
+
+#writeBtn {
+  background-color: #7ba17b;
+}
+
+#writeBtn a {
+  color: white;
+}
+
+#donationBtn:hover, #writeBtn:hover {
+  background-color: mediumseagreen;
+}
+
+#letterBtn {
+  margin-left: 35%;
+  margin-right: 35%;
+  background-color: white;
+  color: #678867;
+  margin-bottom: 20px;
+}
+
+#letterBtn:hover {
+  background-color: lightgray;
+}
+
